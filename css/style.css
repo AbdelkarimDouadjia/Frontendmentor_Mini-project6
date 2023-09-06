@@ -29,7 +29,7 @@ body {
 
 main {
     width: 100vw;
-    height: calc(100vh - 13.5px);
+    height: calc(100vh - 14px);
     background-color: var(--Dark-cyan);
     display: grid;
     place-items: center;
@@ -72,7 +72,7 @@ main::after {
 
 @media (min-width: 768px) {
     .card {
-        width: 550px;
+        width: 400px;
     }
 }
 
@@ -97,14 +97,14 @@ main::after {
     z-index: 1;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .bottom>img {
         width: 180px;
     }
-}
+} */
 
 .profile-info {
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 
 .profile-info .title {
@@ -113,23 +113,23 @@ main::after {
 
 .profile-info .title h2 {
     font-weight: 700;
-    font-size: 27px;
+    font-size: 23px;
     display: inline-block;
     color: var(--Very-dark-desaturated-blue);
-    margin-right: 7px;
+    margin-right: 9px;
 }
 
 .profile-info .title span {
     display: inline-block;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     color: var(--Dark-gray);
-
 }
 
 .profile-info p {
     color: var(--Dark-gray);
     font-weight: 400;
+    font-size: 15px;
 }
 
 .profile-bottom {
@@ -142,26 +142,14 @@ main::after {
 }
 
 .profile-bottom h3 {
-    font-size: 23px;
+    font-size: 20px;
     color: var(--Very-dark-desaturated-blue);
-    margin-bottom: 6px;
+    margin-bottom: 5px;
 }
 
 .profile-bottom p {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     letter-spacing: 1.7px;
     color: var(--Dark-gray);
-}
-
-@media (min-width: 768px) {
-    .profile-bottom {
-        padding: 23px 55px;
-    }
-    .profile-bottom h3 {
-        font-size: 27px;
-    }
-    .profile-bottom p {
-        font-size: 18px;
-    }
 }
